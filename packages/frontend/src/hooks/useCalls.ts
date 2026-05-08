@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { Call, CallFilters } from '../types';
 import { fetchCalls } from '../lib/api';
-import { getSocket, subscribeToCall, unsubscribeFromCall } from '../lib/socket';
+import { getSocket } from '../lib/socket';
 
 /**
  * Returns the live call list and a loading indicator.

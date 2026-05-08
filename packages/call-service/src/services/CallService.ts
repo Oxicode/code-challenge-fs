@@ -1,7 +1,7 @@
 import type { PoolClient } from 'pg';
 import { randomUUID } from 'crypto';
 import { db } from '../db/client';
-import { publishStatusUpdate } from '../bus/publisher';
+// import { publishStatusUpdate } from '../bus/publisher';
 import {
   Call,
   CallStatus,
